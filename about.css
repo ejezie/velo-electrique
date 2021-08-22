@@ -1,0 +1,234 @@
+.header-bottom{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.about-page {
+  width: 100vw;
+}
+.about-page-wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3%;
+}
+.about-page-wrap > h3 > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+.about-page-wrap > h3 > span {
+  color: rgb(111, 110, 110);
+  font-weight: 400;
+}
+.about-one {
+  background-image: url(/assets/rudy.jpg);
+  background-size: cover;
+  height: 62vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-one-content {
+  text-align: center;
+  color: white;
+}
+.about-one-content > h1 {
+  font-size: 3rem;
+  letter-spacing: 10px;
+  font-weight: 400;
+  margin-bottom: 2%;
+}
+.about-one-content > p {
+  letter-spacing: 7px;
+  font-weight: 400;
+}
+.about-one-text-wrap {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3%;
+}
+.about-one-text > h3 {
+  letter-spacing: 6px;
+  margin-bottom: 4%;
+  font-weight: 400;
+  margin-left: 5%;
+}
+.about-one-text > p {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  width: 90%;
+  color: rgb(75, 75, 75);
+  margin-left: 5%;
+}
+.about-two {
+  background: url(/assets/max.jpg) repeat fixed 100%;
+  background-size: cover;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.about-two-content {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 39%;
+  padding: 4%;
+  margin-right: 3%;
+}
+.about-two-content > p {
+  width: 100%;
+  font-size: 0.9rem;
+  margin-bottom: 3%;
+}
+.about-two-content > h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.about-two-content > button {
+  border: 2px solid rgb(255, 255, 255);
+  background: none;
+  color: white;
+  padding: 4%;
+}
+.about-three {
+  width: 100vw;
+}
+.about-three-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 6%;
+}
+.about-three-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  margin-bottom: 10%;
+}
+.about-three-content > i {
+  margin-right: 6%;
+  font-size: 4rem;
+  color: rgb(79, 77, 77);
+}
+.about-three-text {
+  width: 100%;
+}
+.about-three-text > h4 {
+  margin-bottom: 4%;
+  color: rgb(79, 77, 77);
+}
+.about-three-text > p {
+  line-height: 25px;
+  color: rgb(130, 130, 130);
+  width: 100%;
+}
+.about-four{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient( rgb(242, 242, 242), rgb(255, 255, 255));
+    padding: 2%;
+}
+.about-four-team{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.about-team{
+    position: relative;
+    width: 24%;
+    height: 30%;
+}
+.about-team-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.about-team > img{
+    /* height: 18rem; */
+    width: 100%;
+    object-fit: cover;
+
+}
+
+@media (max-width: 720px) {
+  .about-one-content > h1 {
+    font-size: 2rem;
+  }
+  .about-one-content > p {
+    font-size: 0.9rem;
+  }
+  .about-one-text-wrap {
+    flex-direction: column;
+  }
+  .about-one-text > h3 {
+    margin-top: 4%;
+  }
+  .about-two-content {
+    width: 100%;
+  }
+  .about-two-content > p {
+    font-size: 0.8rem;
+    margin-bottom: 6%;
+  }
+  .about-two-content > h1 {
+    font-size: 2rem;
+    margin-bottom: 6%;
+  }
+  .about-two-content > button {
+    padding: 2%;
+  }
+}
+@media (max-width: 960px) {
+  .about-two-content > button {
+    padding: 3%;
+  }
+  .about-three-wrap {
+    flex-direction: column;
+  }
+  .about-three-content {
+    width: 60%;
+  }
+  .about-three-content > .helping {
+    font-size: 2.2rem;
+  }
+  .about-three-content > i {
+    font-size: 3rem;
+    margin-right: 8%;
+  }
+  .about-three-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-three-content > i {
+    margin-right: 0%;
+  }
+}
+@media (max-width: 1000px) {
+  .about-two {
+    justify-content: center;
+  }
+  .about-two-content {
+    width: 70%;
+  }
+}
+@media (max-width: 1200px) {
+}
