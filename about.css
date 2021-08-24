@@ -20,7 +20,7 @@
   font-weight: 400;
 }
 .about-one {
-  background-image: url(/assets/rudy.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/bg3.jpg);
   background-size: cover;
   height: 62vh;
   width: 100vw;
@@ -63,7 +63,7 @@
   margin-left: 5%;
 }
 .about-two {
-  background: url(/assets/max.jpg) repeat fixed 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/bg4.jpg) repeat fixed 100%;
   background-size: cover;
   height: 70vh;
   width: 100vw;
@@ -245,6 +245,9 @@
   }
   .about-four > p {
     font-size: 0.8rem;
+  }
+  .about-page {
+    margin-top: 17%;
   }
 }
 @media (max-width: 960px) {

@@ -33,19 +33,19 @@
     width: 100%;
     font-weight: 700;
     margin: 0% 0% 1% 0%;
-    color: white;
+    color: rgb(255, 255, 238);
 }
 .swiper-text > p{
     width: 80%;
     margin: 0% 0% 1.5% 0%;
-    color: white;
+    color: whitesmoke;
     /* margin: 0% 10% 1.5% 0%; */
     letter-spacing: 3px;
 }
 .swiper-text > button{
     padding: 1%;
     border: none;
-    background-color: white;
+    background-color: whitesmoke;
     width: 8rem;
     color: black;
 }
@@ -58,7 +58,7 @@ header{
     z-index: 2;
 }
 
-.header{
+/* .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -125,7 +125,7 @@ header{
     background-color: rgb(40, 172, 40);
     border: none;
     border-radius: 3px;
-}
+} */
 .header-bottom{
     background-color: white;
     z-index: 2;
@@ -384,8 +384,9 @@ header{
     bottom: 85%;
 }
 .two{
-    background: url(/assets/mashall.jpg) repeat fixed 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/bg1.jpg) repeat fixed 100%;
     background-size: cover;
+    background-position: center;
     width: 100vw;
 }
 .two-wrap{
@@ -518,8 +519,9 @@ header{
     font-size: 0.9rem;
 }
 .four{
-    background: url(assets/un.jpg) repeat fixed 100%;
+    background: url(assets/bg2.jpg) repeat fixed 100%;
     background-size: cover;
+    background-position: center;
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -562,6 +564,7 @@ header{
 .four-text > button:hover{
     background: black;
 }
+
 footer{
     background: rgb(225, 224, 224);
     height: 40vh;
@@ -654,7 +657,26 @@ footer > h2::after{
     .four-text > button{
         width: 55%;
     }
-   
+ 
+    .home-tab-wrap > a > h3{
+        /* display: none; */
+    }
+    .home-tab-wrap {
+        flex-direction: column;
+    }
+    .header-bottom-nav-wrap > a > h3{
+        display: none;
+    }
+    .swiper-text > h1{
+        font-size: 1.4rem;
+    }
+    .swiper-text > p{
+        font-size: 1rem;
+        margin-bottom: 10%;
+    }
+    #swiper-text-h1{
+        margin-bottom: 8%;
+    }
 }
 @media (max-width: 960px) {
     .device-wrap > .destop{
@@ -690,7 +712,7 @@ footer > h2::after{
         /* padding: 1.5%; */
     }
     .header-bottom{
-        display: none;
+        /* display: none; */
     }
     .one-card > p{
         font-size: 0.7rem;
@@ -706,6 +728,9 @@ footer > h2::after{
     }
     .three-card-text > p{
         font-size: 0.6rem;
+    }
+    .swiper-text > h1{
+        font-size: 1.7rem;
     }
     
 }

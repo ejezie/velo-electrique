@@ -24,7 +24,7 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background: url(/assets/mashall.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/bg5.png);
   background-size: cover;
 }
 .service-one-wrap {
@@ -154,7 +154,7 @@
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  background: url(/assets/rudy.jpg) repeat fixed 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/bg6.png) repeat fixed 100%;
 }
 .service-three-wrap {
   display: flex;
