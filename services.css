@@ -364,6 +364,10 @@
   .service-three-text > p {
     font-size: .8rem;
   }
+  .service-page {
+    width: 100vw;
+    margin-top: 12%;
+  }
 }
 
 @media (max-width: 860px) {

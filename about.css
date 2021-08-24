@@ -281,6 +281,9 @@
     width: 90%;
     margin-bottom: 3%;
   }
+  .about-page {
+    margin-top: 12%;
+  }
 }
 @media (max-width: 1000px) {
   .about-two {

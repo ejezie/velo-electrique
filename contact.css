@@ -152,6 +152,10 @@
   .form-s > textarea {
     width: 40rem;
   }
+  .contact-page {
+    width: 100vw;
+    margin-top: 12%;
+  }
 }
 @media (max-width: 720px) {
   .contact-logo-wrap {

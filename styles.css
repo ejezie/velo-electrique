@@ -666,7 +666,7 @@ footer > h2::after {
     display: none;
   }
   .header-bottom {
-    background: rgba(255, 255, 255, 0.5);
+   
   }
   .header-bottom-nav-wrap {
     /* flex-direction: column; */
