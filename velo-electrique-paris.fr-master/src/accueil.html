@@ -1,0 +1,26 @@
+---
+layout: default
+permalink: /
+title: Page d'accueil
+description: Voici la page d'accueil.
+---
+
+<section class="header-section">
+  <form class="header-section-form">
+    <div class="button-wrap"></div>
+  </form>
+</section>
+
+<script>
+  document.addEventListener("scroll", function (e) {
+    let navbar = document.querySelector(".header-bottom");
+    navbar.style.backgroundColor = "transparent";
+    var offset = window.pageYOffset;
+    scroll = offset;
+    if (scroll > 1) {
+      navbar.classList.add("scroll");
+    } else {
+      navbar.classList.remove("scroll");
+    }
+  });
+</script>
